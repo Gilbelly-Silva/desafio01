@@ -1,0 +1,99 @@
+body{
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-image: url(./fundotela5.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header{
+    height: 90px;
+}
+
+.titulo{
+    text-align: center;
+    color: teal;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.fundo{
+    background-color: teal;
+}
+
+section{
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 40px;
+    font-size: 17px;
+    margin-bottom: 100px;
+}
+
+.texto{
+    float: left;
+}
+
+img{
+    float: right;
+    width: 300px;
+}
+
+.Sobre{
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+footer{
+    padding: 15px 30px;
+}
+
+.sociais{
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.box{
+    width: 20px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+    cursor: pointer;
+    margin: 0 15px;
+}
+
+.box:hover{
+    width: min-content;
+    background: #12637cd8;
+    border-radius: 20px;
+    box-shadow: 0 0 10px;
+}
+
+.icone{
+    display: flex;
+    align-items: center;
+}
+
+.icone a{
+    margin-left: 10px;
+}
+
+.sociais p{
+    transform: translate(5px);
+}
